@@ -1,0 +1,260 @@
+/* /// only for refrenece
+
+
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
+
+
+
+function PanCardDetails() {
+return (
+<View style={styles.Iphone13ProMax10}>
+<View style={styles.Group927}>
+<Image
+style={styles.Vector}
+source={{
+uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/5e97m8ky82l-134%3A29?alt=media&token=62762659-a067-415d-8860-964965efad35",
+}}
+/>
+</View>
+<View style={styles.Ellipse8} />
+<View style={styles.Group590}>
+<View style={styles.Rectangle13} />
+<View style={styles.Rectangle11} />
+<View style={styles.Rectangle9} />
+<View style={styles.Rectangle12} />
+<View style={styles.Rectangle10} />
+<View style={styles.Rectangle9} />
+<View style={styles.Group832}>
+<Text style={styles.Txt781}> AAAAA1234A</Text>
+<Text style={styles.Txt856}> Vicky Kaushal</Text>
+<Text style={styles.Txt321}> 15/10/1992</Text>
+<Text style={styles.Txt618}>Get OTP</Text>
+<Text style={styles.Txt754}>
+By entering OTP you are perm- itting Mudrika Finance to fetch your
+credit score
+</Text>
+<Text style={styles.Txt286}>— — — — — —</Text>
+     <View style={styles.Group604}>
+    <Text style={styles.Txt124}>00:14 secs</Text>
+     <Text style={styles.Txt652}>Resend OTP</Text>
+      </View>
+<Text style={styles.Txt988}>Confirm</Text>
+</View>
+</View>
+<Text style={styles.Txt2810}>CIBIL Details</Text>
+</View>
+)
+}
+const styles = StyleSheet.create({
+Iphone13ProMax10: {
+display: "flex",
+flexDirection: "column",
+justifyContent: "flex-start",
+alignItems: "flex-start",
+position: "relative",
+borderRadius: 10,
+backgroundColor: "rgba(40,101,94,1)",
+width: 428,
+height: 926,
+},
+Group927: {
+position: "absolute",
+top: 36,
+none: "0px",
+paddingTop: 59,
+paddingBottom: 159,
+paddingLeft: 101,
+paddingRight: 130,
+borderRadius: 131.5,
+backgroundColor: "rgba(40,101,94,1)",
+width: 263,
+height: 235,
+},
+Vector: {
+width: 30,
+height: 15,
+},
+Ellipse8: {
+position: "absolute",
+top: 747,
+left: 252,
+backgroundColor: "rgba(40,101,94,1)",
+width: 263,
+height: 235,
+borderRadius: 131.5,
+},
+Group590: {
+position: "absolute",
+top: 84,
+none: "0px",
+borderRadius: 10,
+backgroundColor: "rgba(255, 255, 255, 1)",
+width: 348,
+height: 778,
+},
+Rectangle13: {
+position: "absolute",
+top: 135,
+left: 33,
+backgroundColor: "rgba(214,245,241,1)",
+width: 278,
+height: 61,
+},
+Rectangle11: {
+position: "absolute",
+top: 435,
+left: 33,
+backgroundColor: "rgba(214,245,241,1)",
+width: 278,
+height: 61,
+},
+Rectangle9: {
+position: "absolute",
+top: 215,
+left: 33,
+backgroundColor: "rgba(214,245,241,1)",
+width: 278,
+height: 61,
+},
+Rectangle12: {                      get otp button
+position: "absolute",
+top: 293,
+left: 33,
+backgroundColor: "rgba(40,101,94,1)",
+width: 278,
+height: 61,
+},
+
+
+Rectangle10: {                       confirm button
+position: "absolute",
+top: 663,
+left: 37,
+backgroundColor: "rgba(40,101,94,1)",
+width: 278,
+height: 61,
+},
+Rectangle9: {
+position: "absolute",
+top: 54,
+left: 33,
+backgroundColor: "rgba(214,245,241,1)",
+width: 278,
+height: 61,
+},
+Group832: {
+display: "flex",
+flexDirection: "column",
+position: "absolute",
+top: 54,
+none: "0px",
+width: 283,
+height: 671,
+},
+Txt781: {
+fontSize: 18,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(0,0,0,1)",
+width: 275,
+height: 62,
+marginBottom: 19,
+},
+Txt856: {
+fontSize: 18,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(0,0,0,1)",
+width: 278,
+height: 62,
+marginBottom: 18,
+},
+Txt321: {
+fontSize: 18,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(0,0,0,1)",
+width: 278,
+height: 62,
+marginBottom: 16,
+},
+Txt618: {
+fontSize: 20,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(255, 255, 255, 1)",
+textAlign: "center",
+justifyContent: "center",
+width: 279,
+height: 62,
+marginBottom: 9,
+},
+Txt754: {
+fontSize: 16,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(0,0,0,1)",
+width: 278,
+marginBottom: 10,
+},
+Txt286: {
+fontSize: 18,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(0,0,0,1)",
+textAlign: "center",
+justifyContent: "center",
+width: 279,
+height: 62,
+marginBottom: 7,
+},
+Group604: {
+display: "flex",
+flexDirection: "row",
+marginBottom: 138,
+},
+Txt124: {
+fontSize: 16,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(0,0,0,1)",
+textAlign: "center",
+justifyContent: "center",
+marginRight: 92,
+},
+Txt652: {
+fontSize: 16,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(0,0,0,1)",
+textAlign: "center",
+justifyContent: "center",
+textDecorationLine: "underline",
+},
+Txt988: {
+fontSize: 20,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "600",
+color: "rgba(255, 255, 255, 1)",
+textAlign: "center",
+justifyContent: "center",
+width: 279,
+height: 62,
+},
+Txt2810: {
+position: "absolute",
+top: 8,
+left: 36,
+fontSize: 22,
+fontFamily: "Montserrat, sans-serif",
+fontWeight: "700",
+color: "rgba(255, 255, 255, 1)",
+textAlign: "center",
+justifyContent: "center",
+width: 349,
+height: 85,
+},
+})
+
+export default PanCardDetails; */

@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
 
   Txt754: {
     fontSize: 16,
-    fontFamily: "Montserrat, sans-serif",
+    fontFamily: "Montserrat",
     fontWeight: "600",
     color: "rgba(0,0,0,1)",
     width: 250,

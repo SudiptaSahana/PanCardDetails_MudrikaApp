@@ -7,7 +7,7 @@ import { useFonts } from "expo-font";
 function InputText(props) {
 
   const [loaded] = useFonts({
-    MontserratSemiBold: require('../assets/fonts/Montserrat-Regular.ttf'),
+    MontserratSemiBold: require('../assets/fonts/Montserrat-SemiBold.ttf'),
   });
 
 
